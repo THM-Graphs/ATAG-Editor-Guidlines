@@ -17,18 +17,25 @@
     },
     "types": [
       {
-        "additionalLabel": "Regesta",
+        "additionalLabel": "Letter",
         "level": "primary",
         "properties": [
           {
-            "name": "isoEndDate",
+            "name": "status",
             "type": "string",
             "required": false,
             "editable": true,
             "visible": true
           },
           {
-            "name": "isoStartDate",
+            "name": "sender",
+            "type": "string",
+            "required": false,
+            "editable": true,
+            "visible": true
+          },
+          {
+            "name": "receiver",
             "type": "string",
             "required": false,
             "editable": true,
@@ -38,7 +45,7 @@
         "annotations": {
           "types": [
             {
-              "type": "span",
+              "type": "sentPerson",
               "category": "none",
               "defaultSelected": true,
               "isZeroPoint": false,
@@ -46,7 +53,7 @@
               "hasAdditionalTexts": true
             },
             {
-              "type": "em",
+              "type": "receivedPerson",
               "category": "none",
               "defaultSelected": true,
               "isZeroPoint": false,
