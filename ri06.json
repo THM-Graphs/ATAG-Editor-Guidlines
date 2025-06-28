@@ -103,6 +103,13 @@
   "annotations": {
     "types": [
       {
+        "type": "smallcaps",
+        "category": "edition",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasAdditionalTexts": true
+      },
+      {
         "type": "emphasised",
         "category": "edition",
         "defaultSelected": true,
@@ -350,28 +357,7 @@
         }
       ]
     },
-    "entities": [
-      {
-        "category": "concepts",
-        "nodeLabel": "Concept"
-      },
-      {
-        "category": "events",
-        "nodeLabel": "Event"
-      },
-      {
-        "category": "persons",
-        "nodeLabel": "Person"
-      },
-      {
-        "category": "places",
-        "nodeLabel": "Place"
-      },
-      {
-        "category": "roles",
-        "nodeLabel": "Role"
-      }
-    ],
+    "entities": [],
     "additionalTexts": ["Comment", "CommentInternal"]
   }
 }
