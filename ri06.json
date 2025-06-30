@@ -1,6 +1,24 @@
 {
   "texts": {
-    "additionalLabels": []
+    "additionalLabels": [
+      "Title",
+      "Identifier",
+      "Date",
+      "PlaceOfIssue",
+      "Summary",
+      "OriginalDate",
+      "VersoNote",
+      "Witnesses",
+      "Incipit",
+      "Clerk",
+      "Recipient",
+      "Chancellor",
+      "ArchivalHistory",
+      "Literature",
+      "Commentary",
+      "Annotations",
+      "Footnotes"
+    ]
   },
   "collections": {
     "properties": {
