@@ -110,6 +110,13 @@
         "hasAdditionalTexts": true
       },
       {
+        "type": "em",
+        "category": "edition",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasAdditionalTexts": true
+      },
+      {
         "type": "emphasised",
         "category": "edition",
         "defaultSelected": true,
