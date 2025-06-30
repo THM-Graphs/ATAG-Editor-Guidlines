@@ -21,45 +21,18 @@
     --sic-clr: hsl(130, 99%, 29%);
     --transposition-clr: #ccc;
     --unclear-clr: hsl(328, 98%, 47%);
+    --smallcaps-clr: hsl(59, 76%, 38%);
+    --smallcaps-font-weight: 100;
+
 }
 
 /* -------- TEXT ------------------------------------------------------------------------------------------------------------ */
 
 #text > span:has(span.smallcaps) {
-    &:has(.rubricated) {
-        font-weight: var(--rubricated-font-weight);
-        color: var(--rubricated-clr);
-    }
-
-    &:has(.bold) {
-        font-weight: bold;
-        color: unset;
-    }
-
-    &:has(.bold) {
-        font-weight: bold;
-        color: unset;
-    }
-
-    &:has(.initial) {
-        color: var(--initial-clr);
-        font-weight: bold;
-    }
-
-    &:has(.italic) {
-        font-style: italic;
-    }
-
-    &:has(.smallCaps) {
-        text-decoration: dotted underline;
-    }
-
-    &:has(.underlined) {
-        text-decoration: underline;
-    }
+    font-variant: small-caps;
 }
 
-#text > span:has(span.emphasised) {
+#text > span:has(span.em) {
     &:has(.rubricated) {
         font-weight: var(--rubricated-font-weight);
         color: var(--rubricated-clr);
