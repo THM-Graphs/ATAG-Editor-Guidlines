@@ -166,8 +166,20 @@ Fix by changing classlists or annotation types? */
     background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/nonLinear.svg');
 }
 
-.annotation-type-icon-sup {
-    background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/nonLinear.svg');
+.annotation-type-icon-spaced {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/spacedText.svg');
+}
+
+.annotation-type-icon-em {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/emphasised.svg');
+}
+
+.annotation-type-icon-strong {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/bold.svg');
+}
+
+.annotation-type-icon-smallcaps {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/smallcaps.svg');
 }
 
 .annotation-type-icon-entity {
