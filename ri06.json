@@ -117,6 +117,20 @@
         "hasAdditionalTexts": true
       },
       {
+        "type": "strong",
+        "category": "edition",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasAdditionalTexts": true
+      },
+      {
+        "type": "sup",
+        "category": "edition",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasAdditionalTexts": true
+      },
+      {
         "type": "emphasised",
         "category": "edition",
         "defaultSelected": true,

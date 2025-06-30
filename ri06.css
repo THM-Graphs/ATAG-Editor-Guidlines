@@ -37,7 +37,15 @@
     font-style: italic;
 }
 
+#text > span:has(span.strong) {
+    font-weight: bold;
+}
 
+#text > span:has(span.sup) {
+    position: relative;
+    top: -0.5em;
+    font-size: 80%;
+}
 
 #text > span:has(span.emphasised:where(.bold, .initial, .italic, .underlined, .smallCaps)) {
     font-weight: normal;
