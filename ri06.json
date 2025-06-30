@@ -103,13 +103,6 @@
   "annotations": {
     "types": [
       {
-        "type": "smallcaps",
-        "category": "edition",
-        "defaultSelected": true,
-        "isZeroPoint": false,
-        "hasAdditionalTexts": true
-      },
-      {
         "type": "em",
         "category": "edition",
         "defaultSelected": true,
@@ -118,6 +111,13 @@
       },
       {
         "type": "strong",
+        "category": "edition",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasAdditionalTexts": true
+      },
+      {
+        "type": "smallcaps",
         "category": "edition",
         "defaultSelected": true,
         "isZeroPoint": false,
