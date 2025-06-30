@@ -166,6 +166,9 @@ Fix by changing classlists or annotation types? */
     background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/nonLinear.svg');
 }
 
+.annotation-type-icon-sup {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/nonLinear.svg');
+}
 
 .annotation-type-icon-entity {
     background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/entity.svg');
