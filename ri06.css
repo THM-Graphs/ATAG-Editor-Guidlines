@@ -47,14 +47,8 @@
     font-size: 80%;
 }
 
-#text > span:has(span.emphasised:where(.bold, .initial, .italic, .underlined, .smallCaps)) {
-    font-weight: normal;
-    color: unset;
-}
-
-#text > span:has(span.expansion) {
-    background-color: var(--expansion-clr);
-    opacity: var(--expansion-opacity);
+#text > span:has(span.spaced) {
+    letter-spacing: 5px;
 }
 
 #text > span:has(span.nonLinear) {
