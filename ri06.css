@@ -23,7 +23,8 @@
     --unclear-clr: hsl(328, 98%, 47%);
     --smallcaps-clr: hsl(59, 76%, 38%);
     --smallcaps-font-weight: 100;
-
+    --em-clr: hsl(59, 76%, 38%);
+    --em-font-weight: 100;
 }
 
 /* -------- TEXT ------------------------------------------------------------------------------------------------------------ */
@@ -33,38 +34,10 @@
 }
 
 #text > span:has(span.em) {
-    &:has(.rubricated) {
-        font-weight: var(--rubricated-font-weight);
-        color: var(--rubricated-clr);
-    }
-
-    &:has(.bold) {
-        font-weight: bold;
-        color: unset;
-    }
-
-    &:has(.bold) {
-        font-weight: bold;
-        color: unset;
-    }
-
-    &:has(.initial) {
-        color: var(--initial-clr);
-        font-weight: bold;
-    }
-
-    &:has(.italic) {
-        font-style: italic;
-    }
-
-    &:has(.smallCaps) {
-        text-decoration: dotted underline;
-    }
-
-    &:has(.underlined) {
-        text-decoration: underline;
-    }
+    font-style: italic;
 }
+
+
 
 #text > span:has(span.emphasised:where(.bold, .initial, .italic, .underlined, .smallCaps)) {
     font-weight: normal;
