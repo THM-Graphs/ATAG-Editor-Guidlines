@@ -171,7 +171,7 @@ Fix by changing classlists or annotation types? */
 }
 
 .annotation-type-icon-em {
-    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/emphasised.svg');
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/emphasised.svg');
 }
 
 .annotation-type-icon-strong {
