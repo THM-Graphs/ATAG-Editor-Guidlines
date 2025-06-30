@@ -138,46 +138,12 @@
         "hasAdditionalTexts": true
       },
       {
-        "type": "emphasised",
-        "category": "edition",
-        "defaultSelected": true,
-        "isZeroPoint": false,
-        "hasAdditionalTexts": true,
-        "properties": [
-          {
-            "name": "subType",
-            "type": "string",
-            "options": ["rubricated", "initial", "underlined", "italic", "bold", "smallCaps"],
-            "required": true,
-            "editable": true,
-            "visible": true
-          }
-        ]
-      },
-      {
         "type": "expansion",
         "category": "edition",
         "defaultSelected": true,
         "isZeroPoint": false,
         "hasAdditionalTexts": true,
         "shortcut": ["Ctrl", "Shift", "E"]
-      },
-      {
-        "type": "nonLinear",
-        "category": "edition",
-        "defaultSelected": true,
-        "isZeroPoint": false,
-        "hasAdditionalTexts": true,
-        "properties": [
-          {
-            "name": "subType",
-            "type": "string",
-            "options": ["aboveLine", "belowLine", "marginNote"],
-            "required": true,
-            "editable": true,
-            "visible": true
-          }
-        ]
       },
       {
         "type": "intervention",
