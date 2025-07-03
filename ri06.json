@@ -156,6 +156,13 @@
         "hasAdditionalTexts": true
       },
       {
+        "type": "link",
+        "category": "edition",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasAdditionalTexts": true
+      },
+      {
         "type": "expansion",
         "category": "edition",
         "defaultSelected": true,

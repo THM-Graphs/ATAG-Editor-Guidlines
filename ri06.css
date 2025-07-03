@@ -50,6 +50,9 @@
 #text > span:has(span.spaced) {
     letter-spacing: 5px;
 }
+#text > span:has(span.link) {
+    color: hsl(200, 88%, 43%);;
+}
 
 #text > span:has(span.nonLinear) {
     &:has(.aboveLine) {
