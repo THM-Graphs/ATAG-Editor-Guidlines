@@ -160,7 +160,16 @@
         "category": "edition",
         "defaultSelected": true,
         "isZeroPoint": false,
-        "hasAdditionalTexts": true
+        "hasAdditionalTexts": true,
+        "properties": [
+          {
+            "name": "url",
+            "type": "string",
+            "required": true,
+            "editable": true,
+            "visible": true
+          }
+        ]
       },
       {
         "type": "expansion",
