@@ -163,7 +163,7 @@
         "hasAdditionalTexts": true,
         "properties": [
           {
-            "name": "url",
+            "name": "uri",
             "type": "string",
             "required": true,
             "editable": true,
