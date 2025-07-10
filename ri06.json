@@ -89,10 +89,6 @@
             }
           ],
           "entities": [
-            {
-              "category": "persons",
-              "nodeLabel": "Person"
-            }
           ],
           "additionalTexts": []
         }
