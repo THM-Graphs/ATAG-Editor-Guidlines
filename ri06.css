@@ -123,7 +123,7 @@ Fix by changing classlists or annotation types? */
     user-select: none;
 }
 
-#text > span:has(span.entity.person) {
+#text > span:has(span.entity.entity) {
     text-decoration: underline;
     text-decoration-color: hsl(358, 83%, 68%);
     text-decoration-thickness: 2px;
