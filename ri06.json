@@ -189,7 +189,7 @@
           {
             "name": "subType",
             "type": "string",
-            "options": ["concept", "event", "imagery", "person", "place", "reference"],
+            "options": ["entity"],
             "required": true,
             "editable": true,
             "visible": true
@@ -224,7 +224,12 @@
         }
       ]
     },
-    "entities": [],
+    "entities": [
+      {
+        "category": "entity",
+        "nodeLabel": "Entity"
+      }
+    ],
     "additionalTexts": ["Comment", "CommentInternal"]
   }
 }
