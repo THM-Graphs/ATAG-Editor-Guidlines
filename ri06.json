@@ -185,7 +185,7 @@
           {
             "name": "subType",
             "type": "string",
-            "options": ["entity"],
+            "options": ["person", "place", "thing"],
             "required": true,
             "editable": true,
             "visible": true
@@ -222,8 +222,16 @@
     },
     "entities": [
       {
-        "category": "entity",
-        "nodeLabel": "Entity"
+        "category": "thing",
+        "nodeLabel": "Thing"
+      },
+      {
+        "category": "person",
+        "nodeLabel": "Person"
+      },
+      {
+        "category": "place",
+        "nodeLabel": "Place"
       }
     ],
     "additionalTexts": ["Comment", "CommentInternal"]
