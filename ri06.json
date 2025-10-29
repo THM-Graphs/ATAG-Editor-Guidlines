@@ -39,21 +39,42 @@
         "level": "primary",
         "properties": [
           {
+            "name": "department",
+            "type": "string",
+            "required": true,
+            "editable": true,
+            "visible": true
+          },
+          {
+            "name": "volume",
+            "type": "string",
+            "required": true,
+            "editable": true,
+            "visible": true
+          },
+          {
+            "name": "regestaNumber",
+            "type": "string",
+            "required": true,
+            "editable": true,
+            "visible": true
+          },
+          {
+            "name": "date",
+            "type": "string",
+            "required": true,
+            "editable": true,
+            "visible": true
+          },
+          {
+            "name": "placeOfIssue",
+            "type": "string",
+            "required": true,
+            "editable": true,
+            "visible": true
+          },
+          {
             "name": "status",
-            "type": "string",
-            "required": false,
-            "editable": true,
-            "visible": true
-          },
-          {
-            "name": "sender",
-            "type": "string",
-            "required": false,
-            "editable": true,
-            "visible": true
-          },
-          {
-            "name": "receiver",
             "type": "string",
             "required": false,
             "editable": true,
