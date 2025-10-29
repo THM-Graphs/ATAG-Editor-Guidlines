@@ -60,9 +60,16 @@
             "visible": true
           },
           {
-            "name": "date",
-            "type": "string",
+            "name": "startDate",
+            "type": "date",
             "required": true,
+            "editable": true,
+            "visible": true
+          },
+          {
+            "name": "endDate",
+            "type": "date",
+            "required": false,
             "editable": true,
             "visible": true
           },
@@ -84,7 +91,7 @@
         "annotations": {
           "types": [
             {
-              "type": "sentPerson",
+              "type": "nennung",
               "category": "none",
               "defaultSelected": true,
               "isZeroPoint": false,
@@ -92,7 +99,15 @@
               "hasAdditionalTexts": true
             },
             {
-              "type": "receivedPerson",
+              "type": "PLACE_OF_ISSUE",
+              "category": "none",
+              "defaultSelected": true,
+              "isZeroPoint": false,
+              "hasEntities": true,
+              "hasAdditionalTexts": true
+            },
+            {
+              "type": "austOrt",
               "category": "none",
               "defaultSelected": true,
               "isZeroPoint": false,
