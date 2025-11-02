@@ -211,7 +211,7 @@
           {
             "name": "subType",
             "type": "string",
-            "options": ["person", "place", "thing"],
+            "options": ["person", "place", "thing", "role", "event"],
             "required": true,
             "editable": true,
             "visible": true
