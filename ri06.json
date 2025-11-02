@@ -76,7 +76,7 @@
           {
             "name": "placeOfIssue",
             "type": "string",
-            "required": true,
+            "required": false,
             "editable": true,
             "visible": true
           },
@@ -128,16 +128,6 @@
           ],
           "additionalTexts": []
         }
-      },
-      {
-        "additionalLabel": "Comment",
-        "level": "secondary",
-        "properties": []
-      },
-      {
-        "additionalLabel": "CommentInternal",
-        "level": "secondary",
-        "properties": []
       }
     ],
     "annotations": {
@@ -268,8 +258,16 @@
       {
         "category": "place",
         "nodeLabel": "Place"
+      },
+      {
+        "category": "event",
+        "nodeLabel": "Event"
+      },
+      {
+        "category": "role",
+        "nodeLabel": "Role"
       }
     ],
-    "additionalTexts": ["Comment", "CommentInternal"]
+    "additionalTexts": []
   }
 }

@@ -185,9 +185,38 @@ Fix by changing classlists or annotation types? */
     background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/smallcaps.svg');
 }
 
+/*
+ * Entity  Start
+ */
+
 .annotation-type-icon-entity {
-    background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/entity.svg');
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/atom-line.svg');
 }
+
+.annotation-type-icon-person {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/user-line.svg');
+}
+
+.annotation-type-icon-place {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/map-pin-3-line.svg');
+}
+
+.annotation-type-icon-thing {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/box-3-line.svg');
+}
+
+.annotation-type-icon-role {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/award-line.svg');
+}
+
+.annotation-type-icon-event {
+    background-image: url('https://raw.githubusercontent.com/THM-Graphs/ATAG-Editor-Guidlines/refs/heads/main/icons/calendar-event-line.svg');
+}
+
+/*
+ * Entity  End
+ */
+
 
 .annotation-type-icon-emphasised {
     background-image: url('https://raw.githubusercontent.com/THM-Graphs/atag-editor/refs/heads/main/client/public/icons/emphasised.svg');
