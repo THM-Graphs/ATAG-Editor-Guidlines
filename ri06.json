@@ -201,22 +201,44 @@
         "hasAdditionalTexts": true
       },
       {
-        "type": "entity",
+        "type": "person",
         "category": "entities",
         "defaultSelected": true,
         "isZeroPoint": false,
         "hasEntities": true,
-        "hasAdditionalTexts": true,
-        "properties": [
-          {
-            "name": "subType",
-            "type": "string",
-            "options": ["person", "place", "thing", "role", "event"],
-            "required": true,
-            "editable": true,
-            "visible": true
-          }
-        ]
+        "hasAdditionalTexts": false
+      },
+      {
+        "type": "place",
+        "category": "entities",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasEntities": true,
+        "hasAdditionalTexts": false
+      },
+      {
+        "type": "thing",
+        "category": "entities",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasEntities": true,
+        "hasAdditionalTexts": false
+      },
+      {
+        "type": "role",
+        "category": "entities",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasEntities": true,
+        "hasAdditionalTexts": false
+      },
+      {
+        "type": "event",
+        "category": "entities",
+        "defaultSelected": true,
+        "isZeroPoint": false,
+        "hasEntities": true,
+        "hasAdditionalTexts": false
       }
     ],
     "properties": {
